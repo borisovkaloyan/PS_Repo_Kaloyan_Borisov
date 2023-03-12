@@ -16,14 +16,18 @@ namespace Welcome.View
             _viewModel = viewModel; 
         }
 
-        public void Display_basic()
+        public void DisplayBasic()
         {
             Console.WriteLine("Welcome (basic)" + "\nUser: " + _viewModel.Name + "\nRole: " + _viewModel.Role);
         }
-        public void Display_full()
+        public void DisplayFull()
         {
             Console.WriteLine("\nWelcome (full)" + "\nUser: " + _viewModel.Name + "\nRole: " +
                               _viewModel.Role + "\nemail: " + _viewModel.email + "\nFaculty number: " + _viewModel.facNum);
+        }
+        public void DisplayError()
+        {
+            throw new Exception("An error occured with displaying details!");
         }
     }
 }

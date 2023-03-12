@@ -25,8 +25,8 @@ namespace Welcome
 
             UserView usrView = new UserView(usrViewMdl);
 
-            usrView.Display_basic();
-            usrView.Display_full();
+            usrView.DisplayBasic();
+            usrView.DisplayFull();
 
             Console.ReadKey();
         }

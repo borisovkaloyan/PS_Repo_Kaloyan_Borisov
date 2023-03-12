@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\WelcomeExtended\\WelcomeExtended.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\WelcomeExtended\\WelcomeExtended.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\WelcomeExtended\\WelcomeExtended.csproj",
+        "projectName": "WelcomeExtended",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\WelcomeExtended\\WelcomeExtended.csproj",
+        "packagesPath": "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\WelcomeExtended\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Visual Studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kaloyan Borisov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
+                "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
+        "projectName": "Welcome",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
