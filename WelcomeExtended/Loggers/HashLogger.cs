@@ -16,6 +16,7 @@ namespace WelcomeExtended.Loggers
         public HashLogger(string name)
         {
             _name = name;
+            _logMessages = new ConcurrentDictionary<int, string>();
         }
 
         public IDisposable? BeginScope<TState>(TState state) where TState : notnull

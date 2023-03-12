@@ -7,7 +7,7 @@ using Welcome.ViewModel;
 
 namespace Welcome.View
 {
-    class UserView
+    public class UserView
     {
         private UserViewModel _viewModel;
 
@@ -27,7 +27,7 @@ namespace Welcome.View
         }
         public void DisplayError()
         {
-            throw new Exception("An error occured with displaying details!");
+            throw new Exception("An error occured while attempting to display user details!");
         }
     }
 }
