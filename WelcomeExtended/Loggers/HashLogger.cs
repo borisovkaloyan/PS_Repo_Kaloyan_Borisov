@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WelcomeExtended.Loggers
 {
-    class HashLogger : ILogger
+    public class HashLogger : ILogger
     {
         private readonly ConcurrentDictionary<int, string> _logMessages;
         private readonly string _name;
@@ -59,6 +59,30 @@ namespace WelcomeExtended.Loggers
             Console.WriteLine("- LOGGER -");
             Console.ResetColor();
             _logMessages[eventId.Id] = message;
+        }
+
+        public void printLogs()
+        { 
+            foreach (var log in _logMessages) 
+            {
+                Console.WriteLine(log);
+            }
+        }
+
+        public void printLogByID(int logID)
+        {
+            Console.WriteLine(_logMessages[logID]);
+        }
+
+        public void deleteLogByID(int logID)
+        {
+            foreach(KeyValuePair<int, string> kvp in _logMessages)
+            {
+                if(kvp.Key == logID)
+                {
+                    _logMessages.TryRemove(kvp);
+                }
+            }
         }
     }
 }

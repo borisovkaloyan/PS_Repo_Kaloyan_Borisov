@@ -1,0 +1,3 @@
+- LOGGER -
+An error occured while attempting to display user details!
+- LOGGER -

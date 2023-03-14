@@ -8,12 +8,19 @@ using WelcomeExtended.Loggers;
 
 namespace WelcomeExtended.Loggers
 {
-    class LoggerProvider : ILoggerProvider
+    public class LoggerProvider : ILoggerProvider
     {
         public LoggerProvider() { }
         public ILogger CreateLogger(string categoryName)
         {
-            return new HashLogger(categoryName);
+            if(categoryName == "Hello")
+            {
+                return new HashLogger(categoryName);
+            }
+            else
+            {
+                return new FileLogger();
+            }
         }
 
         public void Dispose()

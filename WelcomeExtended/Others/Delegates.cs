@@ -8,9 +8,10 @@ using WelcomeExtended.Helpers;
 
 namespace WelcomeExtended.Others
 {
-    class Delegates
+    public class Delegates
     {
         public static readonly ILogger logger = LoggerHelper.GetLogger("Hello");
+        public static readonly ILogger fileLogger = LoggerHelper.GetLogger("");
 
         public static void Log(string error)
         {
@@ -22,6 +23,11 @@ namespace WelcomeExtended.Others
             Console.WriteLine("- DELEGATES -");
             Console.WriteLine($"{error}");
             Console.WriteLine("- DELEGATES -");
+        }
+
+        public static void logFile(string error)
+        {
+            fileLogger.LogError(error);
         }
 
         public delegate void ActionOnError(string errorMessage);

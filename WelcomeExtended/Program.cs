@@ -5,6 +5,7 @@ using Welcome.View;
 using Welcome.ViewModel;
 using Welcome.Model;
 using static WelcomeExtended.Others.Delegates;
+using WelcomeExtended.Loggers;
 
 namespace WelcomeExtended
 {
@@ -25,11 +26,15 @@ namespace WelcomeExtended
                 var view = new UserView(viewModel);
 
                 view.DisplayBasic();
+
                 view.DisplayError();
             }
             catch (Exception e)
             {
                 var log = new ActionOnError(Log);
+                log(e.Message);
+
+                log = new ActionOnError(logFile);
                 log(e.Message);
             }
             finally 
