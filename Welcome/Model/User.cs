@@ -14,7 +14,7 @@ namespace Welcome.Model
         public UserRolesEnum Role { get; set; }
         public string email { get; set; }
         public string facNum { get; set; }
-        public int Id { get; set; }
+        public virtual int Id { get; set; }
         public DateTime Expires { get; set; }
     }
 }
