@@ -1,39 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Kaloyan Borisov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Visual Studio\\shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Kaloyan Borisov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
-                "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj"
+              "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
+                "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj"
               }
             }
           }
@@ -79,15 +82,15 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
+    "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
+        "projectUniqueName": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
         "projectName": "Welcome",
-        "projectPath": "C:\\Users\\Kaloyan Borisov\\Desktop\\Le_TU\\semestur 6\\ps\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
+        "projectPath": "C:\\Users\\Kaloyan Borisov\\Documents\\git repos\\PS_Repo_Kaloyan_Borisov\\Welcome\\Welcome.csproj",
         "frameworks": {
           "net461": {
             "projectReferences": {}

@@ -4,3 +4,10 @@ C:\Users\Student\Desktop\PS_42_Kaloyan\Welcome\bin\Debug\Welcome.exe
 C:\Users\Student\Desktop\PS_42_Kaloyan\Welcome\bin\Debug\Welcome.pdb
 C:\Users\Student\Desktop\PS_42_Kaloyan\Welcome\obj\Debug\Welcome.exe
 C:\Users\Student\Desktop\PS_42_Kaloyan\Welcome\obj\Debug\Welcome.pdb
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\bin\Debug\Welcome.exe.config
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\bin\Debug\Welcome.exe
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\bin\Debug\Welcome.pdb
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\obj\Debug\Welcome.csproj.AssemblyReference.cache
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\obj\Debug\Welcome.csproj.CoreCompileInputs.cache
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\obj\Debug\Welcome.exe
+C:\Users\Kaloyan Borisov\Documents\git repos\PS_Repo_Kaloyan_Borisov\Welcome\obj\Debug\Welcome.pdb
